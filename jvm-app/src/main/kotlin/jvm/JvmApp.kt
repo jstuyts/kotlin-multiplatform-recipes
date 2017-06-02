@@ -22,12 +22,12 @@ fun main(arguments: Array<String>) {
     val canBeClosed = CanBeClosed()
 
     header("Not working yet: Common extension function on header interface")
-//    canBeClosed.printThis()
+    canBeClosed.printThis()
     
     header("Not working yet: Common generic extension function on header interface")
-//    canBeClosed.mpUse {
-//        println("Using it through 'mpUse': $it")
-//    }
+    canBeClosed.mpUse {
+        println("Using it through 'mpUse': $it")
+    }
 
     header("Extension function from the standard library on a type-aliased header interface")
     canBeClosed.use {
