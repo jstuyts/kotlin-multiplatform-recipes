@@ -3,14 +3,14 @@ package jvm
 import mp.ClassWithMultiPlatformFunctionality
 import mp.CommonClass
 import mp.CommonClassDelegatingToInternalClassHeader
-import mp.commonFunction
 import mp.CommonInterface
 import mp.CommonObject
 import mp.MpCloseable
+import mp.SubClassHeaderDelegatedTo
+import mp.commonFunction
 import mp.mpUse
 import mp.multiPlatformFunction
 import mp.printThis
-import mp.SubClassHeaderDelegatedTo
 
 fun main(arguments: Array<String>) {
     header("Common function")
@@ -64,7 +64,7 @@ fun main(arguments: Array<String>) {
                 println("Doing it in Java through the common object")
                 // Common generic extension function on an instance of a common interface
                 mpUse { ci ->
-                    println("Using common inteface instance: $ci")
+                    println("Using common interface instance: $ci")
                 }
             }
 
