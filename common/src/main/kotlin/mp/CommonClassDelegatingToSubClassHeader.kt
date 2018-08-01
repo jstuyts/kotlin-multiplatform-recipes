@@ -14,5 +14,5 @@ abstract class CommonClassDelegatingToSubClassHeader protected constructor() {
         doIt()
     }
     
-    protected abstract fun doIt(): Unit
+    protected abstract fun doIt()
 }

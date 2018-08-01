@@ -5,5 +5,5 @@ package mp
  * member declared here.
  */
 expect class ClassWithMultiPlatformFunctionality {
-    fun commonFunctionality(): Unit
+    fun commonFunctionality()
 }
