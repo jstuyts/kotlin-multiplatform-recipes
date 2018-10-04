@@ -4,12 +4,12 @@ allprojects {
 }
 
 wrapper {
-  gradleVersion = '4.10.1'
+  gradleVersion = '4.10.2'
   distributionUrl = "https://services.gradle.org/distributions/gradle-$gradleVersion-all.zip"
 }
 
 buildscript {
-    ext.kotlinVersion = '1.2.70'
+    ext.kotlinVersion = '1.2.71'
 
     repositories {
         jcenter()

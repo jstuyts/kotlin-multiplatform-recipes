@@ -17,7 +17,7 @@ Execute the following command to run the JavaScript tests. The test output can b
 Not everything is working as it should as multi-platform support is still being developed. This is the list of known issues:
 
 * IntelliJ IDEA support using stable plug-ins is broken. The experience should be better with an [EAP](https://discuss.kotlinlang.org/c/eap) or [development](https://github.com/jetbrains/kotlin#-installing-the-latest-kotlin-plugin) build, and using the associated Gradle plug-in and standard library from the [Kotlin development repository](https://bintray.com/kotlin/kotlin-dev/kotlin):
-    * You have to build and run the examples using the Gradle runner by enabling the following setting: Settings » Build, Execution, Deployment » Gradle » Runner » Delegate IDE build/run actions to gradle), or use the command line. To run the Java app:
+    * You have to build and run the examples using the Gradle runner by enabling the following setting: Settings › Build, Execution, Deployment › Build Tools › Gradle › Runner › Delegate IDE build/run actions to gradle), or use the command line. To run the Java app:
   
             ./gradlew :jvm-app:run
 
