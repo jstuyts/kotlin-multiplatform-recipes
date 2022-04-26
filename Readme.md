@@ -1,3 +1,7 @@
+# NO LONGER RELEVANT
+
+Multi-platform Kotlin has undergone signifcant changes after I stopped updating this. Please see the [current documentation](https://kotlinlang.org/docs/multiplatform.html).
+
 # Recipes for Multi-Platform Kotlin Modules
 
 This project is a testbed for multi-platform Kotlin modules. It shows how you could implement modules that have code that is common for all platforms, and that may need platform-specific code for (some of) its types and functions.
